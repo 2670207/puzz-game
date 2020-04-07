@@ -1,0 +1,61 @@
+$with-number: 80px;
+.game{
+  margin: 50px 0 0;
+}
+.game-body{
+  margin: 0 0 10px;
+}
+.game-box{
+  display: flex;
+  border: 1px solid $color-secondary;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: $color-primary;
+
+  &--s3{
+    width: $with-number * 3 + 4 * 3 + 2;
+  }
+
+  &--s4{
+    width: $with-number * 4 + 4 * 4 + 2;
+  }
+}
+.game-box__number{
+  width: $with-number;
+  height: $with-number;
+
+ // border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:2px;
+  background-color: $color-secondary;
+  color: $color-light;
+  //color: $color-5-darkest;
+  cursor: pointer;
+
+  &--empty{
+    border: none;
+    background-color: transparent;
+  }
+}
+//game-size-box
+.game-size-box{
+  margin: 0 0 5px;
+}
+.game-size-box__button{
+  margin: 0 3px;
+  &:focus{
+    outline: none;
+  }
+}
+
+.game-size-box{
+  display: flex;
+  justify-content: center;
+}
+
+.game-statistic{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,19 @@
+//game-menu;
+.game-header{
+  margin: 0 0 10px;
+}
+// game-control;
+.game-control{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 10px;
+}
+.game-control__shuffle,.game-control__action{
+  margin: 0 5px;
+}
+.game-statistic{
+  color: $color-light;
+}
+.game-statistic__step, .game-statistic__time{
+  margin: 0 5px;
+}

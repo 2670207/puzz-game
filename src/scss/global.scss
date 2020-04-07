@@ -1,0 +1,24 @@
+@import '~normalize.css';
+
+//abstracts
+@import './abstract/constants';
+@import './abstract/placeholder';
+@import './abstract/mixins';
+
+//base
+@import './base/main';
+
+//layouts
+@import './layouts/footer';
+@import './layouts/header';
+
+//components
+@import './components/logo';
+@import './components/game-header';
+@import './components/game-body';
+@import './components/game-footer';
+
+@import './components/button';
+
+//pages
+@import './pages/index';

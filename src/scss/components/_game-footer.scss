@@ -1,0 +1,12 @@
+//game-menu;
+.game-header{
+  margin: 0 0 10px;
+}
+// game-control;
+.game-control{
+  display: flex;
+  justify-content: center;
+}
+.game-control__shuffle,.game-control__action{
+  margin: 0 5px;
+}
